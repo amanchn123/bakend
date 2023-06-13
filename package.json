@@ -44,6 +44,10 @@
 
     "react-insta-stories": "^2.5.9",
 
+    "social-downloader-cherry": "^1.0.0",
+
+    "youtube-dl-exec": "^2.4.4",
+
     "ytdl-core": "^4.11.4"
 
   }

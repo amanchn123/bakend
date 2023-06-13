@@ -34,6 +34,7 @@ const getAlluser=(async(req,resp)=>{
 
 
 
+
 const updateuser=async(req,resp)=>{
   const {id}=req.query;
   const {currentUser,adminStatus,password,profilePic}=req.body;
@@ -55,6 +56,7 @@ const updateuser=async(req,resp)=>{
     resp.json("excess denied")
   }
 }
+
 
 
 const deleteUser=async(req,resp)=>{
